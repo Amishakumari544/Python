@@ -1,15 +1,21 @@
-class Main {
+import java.util.Scanner;
 
-  public static void main(String[] args) {
-    
-    System.out.println("Enter two numbers");
-    int first = 10;
-    int second = 20;
-    
-    System.out.println(first + " " + second);
-
-    // add two numbers
-    int sum = first + second;
-    System.out.println("The sum is: " + sum)
+  class CheckEvenOdd
+  {
+    public static void main(String args[])
+    {
+      int num;
+      System.out.println("Enter an Integer number:");
+  
+      //The input provided by user is stored in num
+      Scanner input = new Scanner(System.in);
+      num = input.nextInt
+  
+      /* If number is divisible by 2 then it's an even number
+       * else odd number*/
+      if ( num % 2 == 0 )
+          System.out.println("Entered number is even");
+       else
+          System.out.println("Entered number is odd");
+    }
   }
-}
