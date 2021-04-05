@@ -1,0 +1,15 @@
+PIP
+it is python package manager.
+
+Types of modules
+1.Built modules
+2.External modules
+
+Bitwise Operator
+&
+|
+!
+Logical Operator
+and
+or 
+not(converts true to false and vice versa)
