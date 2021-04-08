@@ -13,3 +13,7 @@ Logical Operator
 and
 or 
 not(converts true to false and vice versa)
+String is a data type
+>1.single quoted string
+>2.Double quoted string
+>3.triple quoted string
